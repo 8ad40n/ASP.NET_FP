@@ -12,3 +12,5 @@ C:\Users\User\Desktop\Work\DEV\ASP.NET_Project\PatientRecords\DAL\obj\Debug\DAL.
 C:\Users\User\Desktop\Work\DEV\ASP.NET_Project\PatientRecords\DAL\obj\Debug\DAL.pdb
 C:\Users\User\Desktop\Work\DEV\ASP.NET_Project\PatientRecords\DAL\obj\Debug\DAL.Migrations.initDB.resources
 C:\Users\User\Desktop\Work\DEV\ASP.NET_Project\PatientRecords\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Work\DEV\ASP.NET_Project\PatientRecords\DAL\obj\Debug\DAL.Migrations.initPrescription.resources
+C:\Users\User\Desktop\Work\DEV\ASP.NET_Project\PatientRecords\DAL\obj\Debug\DAL.Migrations.remove_record.resources

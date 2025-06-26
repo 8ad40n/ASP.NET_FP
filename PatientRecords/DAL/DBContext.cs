@@ -13,7 +13,6 @@ namespace DAL
         public DbSet<Appointment> Appointments { get; set; }
         public DbSet<Doctor> Doctors { get; set; }
         public DbSet<Diagnosis> Diagnoses { get; set; }
-        public DbSet<MedicalHistory> MedicalHistories { get; set; }
         public DbSet<Patient> Patients { get; set; }
         public DbSet<Prescription> Prescriptions { get; set; }
         public DbSet<Medication> Medications { get; set; }

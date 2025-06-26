@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DAL.Models
 {
@@ -13,19 +11,23 @@ namespace DAL.Models
         public int PrescriptionID { get; set; }
 
         [Required]
-        public int PatientID { get; set; }  // Foreign Key
+        [ForeignKey("Patient")]
+        public int PatientID { get; set; }
 
         [Required]
-        public int DoctorID { get; set; }   // Foreign Key
+        [ForeignKey("Doctor")]
+        public int DoctorID { get; set; }
 
         [Required]
         public DateTime PrescriptionDate { get; set; }
 
-        public virtual ICollection<Medication> Medications { get; set; }  // Navigation Property to Medication Table
+        public virtual Patient Patient { get; set; } 
+        public virtual Doctor Doctor { get; set; } 
+        public virtual ICollection<Medication> Medications { get; set; }
 
         public Prescription()
         {
-            Medications = new List<Medication>();
+            Medications = new List<Medication>(); 
         }
     }
 }
